@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for Player Data</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+    <script type="module" src="script.js" defer></script> <!-- Linking the external JavaScript file -->
+</head>
+
+<body>
+    <div id="top">
+        <h1>Very Cool Title</h1>
+    </div>
+    <div id="username">
+        <label for="usernameInput">Enter your Username:</label>
+        <input type="text" id="usernameInput" placeholder="Username">
+        <button type="button" id="nextButton">Next</button> <!-- Changed inline onclick to a button with an id -->
+    </div>
+    <div id="secondSearchBox" style="display: none;"> <!-- Initially hidden -->
+        <label for="extraSearch">What Item do you want to find?:</label>
+        <input type="text" id="extraSearch" placeholder="Search Details">
+        <button id="getPlayerData">Get Player Data</button>
+    </div>
+    <div id="playerInfo"></div> <!-- Added an element to display player data -->
+</body>
+
+</html>

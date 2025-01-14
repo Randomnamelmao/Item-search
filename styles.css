@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff; 
+    color: #fff; 
+    text-align: center;
+    font-size: large;          
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align to top */
+    align-items: center;
+    height: 100vh;
+    padding-top: 20px; /* Adds a little spacing from the top */
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+#username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+#secondSearchBox {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
